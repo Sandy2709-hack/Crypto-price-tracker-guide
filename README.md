@@ -21,6 +21,25 @@ It combines an **on-chain Move smart contract** with an **off-chain Node.js scri
 - **Backend:** Node.js (+ Aptos SDK + Pyth SDK)
 - **Frontend:** HTML / CSS / JavaScript (or React)
 
----
-
 ## 📂 Project Structure
+bootcampday-2/
+│
+├── sources/ # Move smart contracts
+│ └── project.move # Example Move module
+│
+├── scripts/ # Node.js scripts
+│ └── index.js # Fetch + update prices
+│
+├── frontend/ # (Optional) Web dashboard
+│ ├── index.html
+│ ├── style.css
+│ └── script.js
+│
+├── tests/ # Contract tests
+├── Move.toml # Move project config
+└── README.md # Documentation
+---<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/0009dd5e-1861-43bc-ad6c-b6e0cdb521b6" />
+
+
+
+
